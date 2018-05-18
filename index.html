@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Dome Sea</title>
+</head>
+<body>
+
+<div class="bgimg-1">
+    <div class="caption">
+        <span class="border">Dome Sea</span>
+    </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">What is Dome Sea?</h3>
+    <p>Dome Sea will be Utah's premier indoor family adventure. Dome Sea will host the world's largest indoor scuba pool, an indoor waterpark with extreme rides, wave pool, lazy river, and several splash pads, an arcade and entertainment center with a virtual reality center, laser tag, mini golf, rope course, and play center, restaurants, and a mid-level to luxury hotel.</p>
+</div>
+
+<div class="bgimg-2">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+    </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>The main dome houses the largest indoor pool in
+            the United States. This saltwater pool is a scuba
+            diver's dream. With over Six million gallons of 85`
+            water, depths of up to 65’, and a realistic ocean
+            bottom decor scuba divers will feel like they have
+            jumped into the Caribbean Ocean. The pool
+            features coral reefs, kelp beds, rocks, boulders,
+            underwater animals, and a sand bottom. We are
+            able to move all of the features so your
+            underwater diving experience will change with
+            the seasons. Scuba divers of all ages are
+            welcome. Come and enjoy all that the
+            underwater world has to offer. If you are not
+            ready to try scuba diving but want to experience
+            the salt water pool you can snorkel or use the
+            paddleboards and kayaks..</p>
+    </div>
+</div>
+
+<div class="bgimg-3">
+    <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+    </div>
+</div>
+
+<div style="position:relative;">
+    <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+        <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    </div>
+</div>
+
+<div class="bgimg-1">
+        <div class="container"  style="background-color: #777777; opacity: .5">
+            <div style="text-align:center">
+                <h2 style="color: black">Contact Us</h2>
+                <p style="color: black">We are here to help!</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div id="map" style="width:100%;height:500px"></div>
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="First Name">
+                        <label for="lname" style="color: ghostwhite">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            // Initialize google maps
+            function myMap() {
+                var myCenter = new google.maps.LatLng(51.508742,-0.120850);
+                var mapCanvas = document.getElementById("map");
+                var mapOptions = {center: myCenter, zoom: 12};
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+                var marker = new google.maps.Marker({position:myCenter});
+                marker.setMap(map);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    </div>
+
+
+</body>
+</html>
