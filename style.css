@@ -72,7 +72,7 @@ input[type=text], select, textarea {
     resize: vertical;
     color: black;
     background-color: white;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 input[type=email], select, textarea {
@@ -84,7 +84,7 @@ input[type=email], select, textarea {
     resize: vertical;
     color: black;
     background-color: white;
-    opacity: .7;
+    opacity: 0.7;
 }
 
 input[type=submit] {
