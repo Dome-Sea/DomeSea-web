@@ -71,7 +71,8 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
     color: black;
-    background-color: transparent;
+    background-color: white;
+    opacity: .7;
 }
 
 input[type=email], select, textarea {
@@ -82,7 +83,8 @@ input[type=email], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
     color: black;
-    background-color: transparent;
+    background-color: white;
+    opacity: .7;
 }
 
 input[type=submit] {
@@ -98,7 +100,7 @@ input[type=submit]:hover {
 }
 
 ::placeholder{
-    color: whitesmoke;
+    color: black;
 }
 
 
