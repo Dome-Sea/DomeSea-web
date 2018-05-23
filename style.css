@@ -34,7 +34,7 @@ body, html {
     position: absolute;
     left: 0;
     top: 50%;
-    min-width: 100%;
+    width: 100%;
     text-align: center;
     color: #000;
 }
@@ -64,7 +64,7 @@ body {
 
 /* Style inputs */
 input[type=text], select, textarea {
-    min-width: 100%;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
@@ -76,7 +76,7 @@ input[type=text], select, textarea {
 }
 
 input[type=email], select, textarea {
-    min-width: 100%;
+    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
@@ -134,10 +134,11 @@ input[type=submit]:hover {
     }
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones 
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
 }
+*/
 
