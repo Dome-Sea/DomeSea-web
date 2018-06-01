@@ -16,12 +16,12 @@ body, html {
 
 }
 .bgimg-1 {
-    background-image: url("AdobeStock_74519546.jpeg");
+    background-image: url("AdobeStock_104365901.jpeg");
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("AdobeStock_104365901.jpeg");
+    background-image: url("AdobeStock_168542867.jpeg");
     min-height: 100%;
 }
 
@@ -40,10 +40,10 @@ body, html {
 }
 
 .caption span.border {
-    background-color: #111;
+    background-color: transparent;
     color: #fff;
     padding: 18px;
-    font-size: 25px;
+    font-size: 40px;
     letter-spacing: 10px;
 }
 
@@ -134,11 +134,11 @@ input[type=submit]:hover {
     }
 }
 
+
 /* Turn off parallax scrolling for tablets and phones */
-/* @media only screen and (max-device-width: 1024px) {
+ @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
 }
-*/
 
