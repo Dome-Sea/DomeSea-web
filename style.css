@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    color: black;
+    color: white;
     text-shadow: black;
 }
 
@@ -33,25 +33,28 @@ body, html {
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: #000;
 }
 
 .caption span.border {
-    background-color: transparent;
     color: #fff;
     padding: 18px;
-    font-size: 40px;
-    letter-spacing: 10px;
+    font-size: 70px;
+    letter-spacing: 5px;
 }
 
 h3 {
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
-    color: #111;
+    color: white;
+}
+h2 {
+    font-size: xx-large;
+    margin-top: 50px;
 }
 
 body {
@@ -65,7 +68,7 @@ body {
 /* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 9px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -77,7 +80,7 @@ input[type=text], select, textarea {
 
 input[type=email], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 9px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -90,7 +93,7 @@ input[type=email], select, textarea {
 input[type=submit] {
     background-color: black;
     color: white;
-    padding: 12px 20px;
+    padding: 9px 20px;
     border: none;
     cursor: pointer;
 }
@@ -142,3 +145,36 @@ input[type=submit]:hover {
     }
 }
 
+
+
+/* navbar */
+
+.navbar {
+    overflow: hidden;
+    background-color: #282E34;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
